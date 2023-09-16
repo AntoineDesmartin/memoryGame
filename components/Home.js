@@ -101,8 +101,7 @@ let rstyle ={"color":"white"}
     <div className={styles.home}>
       <div className={styles.header}>
         <h1 className={styles.headerTitle}>Memory Game 🧠 </h1>
-        <span style={rstyle}>compteur avec useState : {c}</span>
-        <span style={rstyle}>compteur avec useRef: {counter.current}</span>  {/*// !+simple moins de pb */}
+        <span style={rstyle}>compteur: {c}</span>
         <div className={styles.headerDivider} />
       </div>
 
